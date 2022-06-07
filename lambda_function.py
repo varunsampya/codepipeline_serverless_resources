@@ -4,7 +4,7 @@ import datetime
 
 def handler(event, context):
     data = {
-        'output': 'AWS CodePipeline Rocks!',
+        'output': 'AWS CodePipeline demo!',
         'timestamp': datetime.datetime.utcnow().isoformat()
     }
     return {'statusCode': 200,
